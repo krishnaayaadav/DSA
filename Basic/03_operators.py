@@ -117,3 +117,21 @@ else:
     print('No both password are not  same')
 
 
+
+# bitwise operators in python 
+
+"""Bitwise operators are use to perform opertation on bits. that means if we have number so number will first convereted in binary format as o and 1 that the bitwise operations are performed"""
+
+marks1 = 52
+marks2 = 48
+
+
+result  = marks1 & marks2
+print(result)
+
+result = marks1  | marks2
+
+result = marks1 ^ marks2
+
+print(result)
+
